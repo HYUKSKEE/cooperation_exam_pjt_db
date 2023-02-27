@@ -1,4 +1,4 @@
-const { DataSource } = require("typeorm");
+/* const { DataSource } = require("typeorm");
 
 const myDataSource = new DataSource({
   type: process.env.TYPEORM_CONNECTION,
@@ -41,3 +41,4 @@ const createUser = async (name, email, password, profileImage) => {
 module.exports = {
   createUser,
 };
+ */
