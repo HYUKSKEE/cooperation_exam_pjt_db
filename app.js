@@ -28,7 +28,7 @@ app.use(cors());
 app.use(morgan("combined"));
 
 app.get("/ping", (req, res) => {
-  res.json({ message: "pong" });
+  res.json({ message: "잘 동작한다 임마~!" });
 });
 
 const server = http.createServer(app);
